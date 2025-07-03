@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="CONTAINER">
+      <div class="container">
+        <p id="text">To-Do List</p>
+        <div id="header">
+          <input id="typing" type="text" placeholder="Add a new task..." />
+          <button id="tvch" onclick="list">Add</button>
+        </div>
+        <div id="mid-container">
+          <button class="lock" id="all" onclick="bugd">All</button>
+          <button class="lock" id="active" onclick="ToDoactive">Active</button>
+          <button class="lock" id="completed" onclick="ToDocompleted">
+            Completed
+          </button>
+        </div>
+        <div id="todolists"></div>
+        <div id="footer">
+          <p id="test" style="text-align: center">
+            No task yet. Add one above!
+          </p>
+          <p style="text-align: center">Powevered by Pinecone academy</p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>

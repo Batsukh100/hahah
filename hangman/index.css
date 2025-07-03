@@ -1,0 +1,58 @@
+.keyboard {
+  background-color: black;
+  width: 300px;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+#letters {
+  height: 100px;
+  width: 324px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  background-color: burlywood;
+}
+#answer {
+  font-size: 30px;
+}
+#img {
+  width: 200px;
+  height: 350px;
+}
+#failcount {
+  font-size: 20px;
+}
+
+.modal {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 30px;
+  height: 100vh;
+  width: 100vw;
+  display: none;
+  z-index: 10;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+#ALL {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+#GG {
+  position: absolute;
+  left: 1000px;
+  top: 500px;
+}
+#over {
+  color: crimson;
+}
+#again {
+  color: crimson;
+}
