@@ -13,7 +13,6 @@
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  background-color: burlywood;
 }
 #answer {
   font-size: 30px;

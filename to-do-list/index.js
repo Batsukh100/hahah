@@ -6,7 +6,6 @@ const activeButton = document.getElementById("active");
 const completedButton = document.getElementById("completed");
 const test = document.getElementById("test");
 function list() {
-  todolist.innerHTML = "";
   test.style = "display: none";
   const InputValue = input.value;
   console.log(InputValue);
